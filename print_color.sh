@@ -28,8 +28,10 @@ RESET="\x1b[0m"
 
 printf "Hello \n"
 echo $FTRED Red
+echo ${FTRED}Red tout attaché
 printf "\x1b[91mred\n"
-printf "$FTRED Red \n"
+printf "$FTRED Red printf\n"
+printf "${FTRED}Red printf tout attaché\n"
 printf "%sbonjour\n" "$FTYELLOW"
 printf "$FTBLUE Blue \n "
 printf "$FTGREEN Green \n"

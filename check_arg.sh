@@ -18,7 +18,7 @@ printf "il y a pour un total de %d arguments \n" $#
 printf "affichage dollar arobase \n"
 printf $@
 
-$RETOUR=ls -l
+
 
 
 
